@@ -1,0 +1,146 @@
+.darkBG {
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 100vw;
+  height: 100vh;
+  z-index: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.modal {
+  width: 500px;
+  min-height: 500px;
+  background: white;
+  color: white;
+  z-index: 10;
+  border-radius: 16px;
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.04);
+  position: relative;
+}
+
+.modalHeader {
+  background: white;
+  margin: 0px;
+  padding: 10px;
+  color: #2c3e50;
+  font-weight: 500;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  border-radius: 16px;
+}
+
+.closeBtn {
+  cursor: pointer;
+  font-weight: 500;
+  padding: 4px 8px;
+  border-radius: 8px;
+  border: none;
+  font-size: 18px;
+  color: #2c3e50;
+  background: white;
+  transition: all 0.25s ease;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  align-self: flex-end;
+}
+
+.modalContent {
+  padding: 10px;
+  color: #2c3e50;
+  padding: 0 20px;
+  position: relative;
+}
+
+.tollName .tollTitle,
+.tollFare .tollTitle {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 10px 0px;
+}
+
+.tollName .tollInput {
+  width: 95%;
+  padding: 10px;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+.tollFareContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.tollFareContent .selectContainer {
+  width: 33%;
+  padding: 10px 5px;
+  border: 1px solid #000;
+}
+
+.tollFareContent .vehicleInput {
+  width: 25%;
+  padding: 10px;
+  border: 1px solid #000;
+}
+
+.addButton {
+  width: 100%;
+  max-width: 450px;
+  margin: 10px auto;
+  padding: 10px 30px;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  background: #757ce8;
+  cursor: pointer;
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.tollNameContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.tollNameContainer .title {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 10px 0px;
+}
+
+.tollNameContainer .selectContainer {
+  width: 100%;
+  padding: 10px 5px;
+  border: 1px solid #000;
+}
+
+.vehicleInputContainer .title {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 10px 0px;
+}
+
+.vehicleInputContainer .vehicleNumber {
+  width: 95%;
+  padding: 10px;
+  border: 1px solid #000;
+}
